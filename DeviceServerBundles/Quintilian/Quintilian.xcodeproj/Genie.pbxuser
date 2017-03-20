@@ -1,0 +1,149 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 8D5B49AC048680CD000E48DA /* Quintilian */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* Quintilian */,
+		);
+		codeSenseManager = F614E1411484A10100F44F75 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					669,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 344236281;
+			PBXWorkspaceStateSaveDate = 344236281;
+		};
+		perUserProjectItems = {
+			F614E1C91484A46E00F44F75 /* PBXTextBookmark */ = F614E1C91484A46E00F44F75 /* PBXTextBookmark */;
+			F614E1EC1484A87800F44F75 /* PBXTextBookmark */ = F614E1EC1484A87800F44F75 /* PBXTextBookmark */;
+			F614E2091484AAE400F44F75 /* PBXTextBookmark */ = F614E2091484AAE400F44F75 /* PBXTextBookmark */;
+			F614E20A1484AAE400F44F75 /* PBXTextBookmark */ = F614E20A1484AAE400F44F75 /* PBXTextBookmark */;
+			F614E2151484B15E00F44F75 /* PBXTextBookmark */ = F614E2151484B15E00F44F75 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F614E1401484A10100F44F75 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D5B49AC048680CD000E48DA /* Quintilian */ = {
+		activeExec = 0;
+	};
+	CB1C73101097B29A00730F1D /* QuintilianManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {847, 597}}";
+			sepNavSelRange = "{811, 0}";
+			sepNavVisRange = "{0, 1083}";
+		};
+	};
+	CB1C73111097B29A00730F1D /* QuintilianManager.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 8710}}";
+			sepNavSelRange = "{7681, 0}";
+			sepNavVisRange = "{7485, 414}";
+			sepNavWindowFrame = "{{607, 0}, {673, 778}}";
+		};
+	};
+	CBBC7AF110A9F4C400CFC118 /* Quintilian.lua */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 650}}";
+			sepNavSelRange = "{1929, 0}";
+			sepNavVisRange = "{0, 1932}";
+			sepNavWindowFrame = "{{48, -189}, {673, 778}}";
+		};
+	};
+	F614E1401484A10100F44F75 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F614E1411484A10100F44F75 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F614E1C11484A3B900F44F75 /* main.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = main.cpp;
+		path = /Users/Genie/Desktop/phaseSpaceTrackerExample/Quintilian/Quintilian/main.cpp;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {880, 8645}}";
+			sepNavSelRange = "{229, 0}";
+			sepNavVisRange = "{5119, 1182}";
+		};
+	};
+	F614E1C91484A46E00F44F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F614E1C11484A3B900F44F75 /* main.cpp */;
+		name = "main.cpp: 8";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 1182;
+		vrLoc = 5119;
+	};
+	F614E1EC1484A87800F44F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBBC7AF110A9F4C400CFC118 /* Quintilian.lua */;
+		name = "Quintilian.lua: 28";
+		rLen = 0;
+		rLoc = 1929;
+		rType = 0;
+		vrLen = 1932;
+		vrLoc = 0;
+	};
+	F614E2091484AAE400F44F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB1C73101097B29A00730F1D /* QuintilianManager.h */;
+		name = "QuintilianManager.h: 30";
+		rLen = 0;
+		rLoc = 811;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 0;
+	};
+	F614E20A1484AAE400F44F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB1C73111097B29A00730F1D /* QuintilianManager.mm */;
+		name = "QuintilianManager.mm: 252";
+		rLen = 0;
+		rLoc = 7282;
+		rType = 0;
+		vrLen = 1193;
+		vrLoc = 6898;
+	};
+	F614E2151484B15E00F44F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB1C73111097B29A00730F1D /* QuintilianManager.mm */;
+		name = "QuintilianManager.mm: 11";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 1745;
+		vrLoc = 0;
+	};
+}

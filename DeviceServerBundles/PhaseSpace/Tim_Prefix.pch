@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'FirstBundle' target in the 'FirstBundle' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#define INT(num) [NSNumber numberWithInt:num]
+	#define FLOAT(num) [NSNumber numberWithFloat:num]
+#endif

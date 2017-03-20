@@ -1,0 +1,15 @@
+Lua Expressions
+
+Expressions should take the form:
+
+x = x * 2 + 5;
+
+x represents the "natural" value of the control before it has been processed, and is also the 
+final output of the expression.
+
+When defining functions to be called in a Lua expression, you will often want to pass the "natural"
+value of hte control; since this value is represented with the variable x, one would just write:
+
+expression = "log10(x)"
+
+assuming log10 was the name of a function in Lua that accepted one numeric value as an argument.

@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.03">
+	<data>
+		<int key="IBDocument.SystemTarget">1050</int>
+		<string key="IBDocument.SystemVersion">9J61</string>
+		<string key="IBDocument.InterfaceBuilderVersion">677</string>
+		<string key="IBDocument.AppKitVersion">949.46</string>
+		<string key="IBDocument.HIToolboxVersion">353.00</string>
+		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="449"/>
+		</object>
+		<object class="NSArray" key="IBDocument.PluginDependencies">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<string>com.apple.InterfaceBuilderKit</string>
+			<string>com.apple.QuartzComposerIBPlugin</string>
+			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+		</object>
+		<object class="NSMutableDictionary" key="IBDocument.Metadata">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<object class="NSArray" key="dict.sortedKeys">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+			</object>
+			<object class="NSMutableArray" key="dict.values">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+			</object>
+		</object>
+		<object class="NSMutableArray" key="IBDocument.RootObjects" id="1048">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<object class="NSCustomObject" id="1021">
+				<string key="NSClassName">NSApplication</string>
+			</object>
+			<object class="NSCustomObject" id="1014">
+				<string key="NSClassName">FirstResponder</string>
+			</object>
+			<object class="NSCustomObject" id="1050">
+				<string key="NSClassName">NSApplication</string>
+			</object>
+			<object class="NSCustomView" id="919965001">
+				<reference key="NSNextResponder"/>
+				<int key="NSvFlags">274</int>
+				<object class="NSMutableArray" key="NSSubviews">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<object class="NSButton" id="959812221">
+						<reference key="NSNextResponder" ref="919965001"/>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{30, 8}, {96, 28}}</string>
+						<reference key="NSSuperview" ref="919965001"/>
+						<bool key="NSEnabled">YES</bool>
+						<object class="NSButtonCell" key="NSCell" id="682660128">
+							<int key="NSCellFlags">67239424</int>
+							<int key="NSCellFlags2">134348800</int>
+							<string key="NSContents">Connect</string>
+							<object class="NSFont" key="NSSupport">
+								<string key="NSName">LucidaGrande</string>
+								<double key="NSSize">1.100000e+01</double>
+								<int key="NSfFlags">3100</int>
+							</object>
+							<reference key="NSControlView" ref="959812221"/>
+							<int key="NSButtonFlags">-2038284033</int>
+							<int key="NSButtonFlags2">129</int>
+							<string key="NSAlternateContents"/>
+							<string key="NSKeyEquivalent"/>
+							<int key="NSPeriodicDelay">200</int>
+							<int key="NSPeriodicInterval">25</int>
+						</object>
+					</object>
+					<object class="QCView" id="515825188">
+						<reference key="NSNextResponder" ref="919965001"/>
+						<int key="NSvFlags">266</int>
+						<string key="NSFrame">{{16, 41}, {125, 100}}</string>
+						<reference key="NSSuperview" ref="919965001"/>
+						<nil key="composition"/>
+						<string key="aspectRatio">{0, 0}</string>
+						<bool key="allowsDragIn">NO</bool>
+						<bool key="allowsDragOut">NO</bool>
+						<float key="maxFPS">0.000000e+00</float>
+						<bool key="autorun">YES</bool>
+						<int key="forwardingEventMask">0</int>
+						<object class="NSColor" key="clearColor" id="779247460">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MCAwIDAAA</bytes>
+						</object>
+						<reference key="backgroundColor" ref="779247460"/>
+						<int key="checkerboardSize">0</int>
+						<int key="flags">0</int>
+						<bool key="forcesClear">NO</bool>
+					</object>
+				</object>
+				<string key="NSFrameSize">{157, 142}</string>
+				<reference key="NSSuperview"/>
+				<string key="NSClassName">NSView</string>
+			</object>
+			<object class="NSCustomObject" id="394347438">
+				<string key="NSClassName">AudioManager</string>
+			</object>
+			<object class="QCPatchController" id="1047786911">
+				<object class="NSMutableDictionary" key="composition">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<object class="NSMutableArray" key="dict.sortedKeys">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<string>frameworkVersion</string>
+						<string>portAttributes</string>
+						<string>rootPatch</string>
+					</object>
+					<object class="NSMutableArray" key="dict.values">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<string>106.13</string>
+						<object class="NSMutableDictionary">
+							<string key="NS.key.0">_enable</string>
+							<object class="NSDictionary" key="NS.object.0">
+								<bool key="EncodedWithXMLCoder">YES</bool>
+								<object class="NSMutableArray" key="dict.sortedKeys">
+									<bool key="EncodedWithXMLCoder">YES</bool>
+									<string>description</string>
+									<string>name</string>
+								</object>
+								<object class="NSMutableArray" key="dict.values">
+									<bool key="EncodedWithXMLCoder">YES</bool>
+									<string>Controls execution of the patch.</string>
+									<string>Enable</string>
+								</object>
+							</object>
+						</object>
+						<object class="NSMutableDictionary">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="NSMutableArray" key="dict.sortedKeys">
+								<bool key="EncodedWithXMLCoder">YES</bool>
+								<string>class</string>
+								<string>state</string>
+							</object>
+							<object class="NSMutableArray" key="dict.values">
+								<bool key="EncodedWithXMLCoder">YES</bool>
+								<string>QCPatch</string>
+								<object class="NSMutableDictionary">
+									<bool key="EncodedWithXMLCoder">YES</bool>
+									<object class="NSMutableArray" key="dict.sortedKeys">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+										<string>connections</string>
+										<string>nodes</string>
+										<string>publishedOutputPorts</string>
+										<string>userInfo</string>
+									</object>
+									<object class="NSMutableArray" key="dict.values">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+										<object class="NSMutableDictionary">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<object class="NSMutableArray" key="dict.sortedKeys">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<string>connection_1</string>
+												<string>connection_2</string>
+												<string>connection_3</string>
+												<string>connection_4</string>
+												<string>connection_5</string>
+											</object>
+											<object class="NSMutableArray" key="dict.values">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableDictionary">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<object class="NSMutableArray" key="dict.sortedKeys">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>destinationNode</string>
+														<string>destinationPort</string>
+														<string>sourceNode</string>
+														<string>sourcePort</string>
+													</object>
+													<object class="NSMutableArray" key="dict.values">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>Sprite_1</string>
+														<string>inputHeight</string>
+														<string>ScreenInfo_1</string>
+														<string>outputHeight</string>
+													</object>
+												</object>
+												<object class="NSMutableDictionary">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<object class="NSMutableArray" key="dict.sortedKeys">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>destinationNode</string>
+														<string>destinationPort</string>
+														<string>sourceNode</string>
+														<string>sourcePort</string>
+													</object>
+													<object class="NSMutableArray" key="dict.values">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>Iterator_1</string>
+														<string>Structure</string>
+														<string>AudioInput_1</string>
+														<string>outputSpectrum</string>
+													</object>
+												</object>
+												<object class="NSMutableDictionary">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<object class="NSMutableArray" key="dict.sortedKeys">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>destinationNode</string>
+														<string>destinationPort</string>
+														<string>sourceNode</string>
+														<string>sourcePort</string>
+													</object>
+													<object class="NSMutableArray" key="dict.values">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>Sprite_1</string>
+														<string>inputWidth</string>
+														<string>ScreenInfo_1</string>
+														<string>outputWidth</string>
+													</object>
+												</object>
+												<object class="NSMutableDictionary">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<object class="NSMutableArray" key="dict.sortedKeys">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>destinationNode</string>
+														<string>destinationPort</string>
+														<string>sourceNode</string>
+														<string>sourcePort</string>
+													</object>
+													<object class="NSMutableArray" key="dict.values">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>ColorFromComponents_rgb_1</string>
+														<string>inputAlpha</string>
+														<string>AudioInput_1</string>
+														<string>outputPeak</string>
+													</object>
+												</object>
+												<object class="NSMutableDictionary">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<object class="NSMutableArray" key="dict.sortedKeys">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>destinationNode</string>
+														<string>destinationPort</string>
+														<string>sourceNode</string>
+														<string>sourcePort</string>
+													</object>
+													<object class="NSMutableArray" key="dict.values">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>Sprite_1</string>
+														<string>inputColor</string>
+														<string>ColorFromComponents_rgb_1</string>
+														<string>outputColor</string>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="NSMutableArray">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<object class="NSMutableDictionary">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableArray" key="dict.sortedKeys">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>class</string>
+													<string>key</string>
+													<string>state</string>
+												</object>
+												<object class="NSMutableArray" key="dict.values">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>QCAudioInput</string>
+													<string>AudioInput_1</string>
+													<object class="NSMutableDictionary">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<object class="NSMutableArray" key="dict.sortedKeys">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<string>inputDeviceIdentifier</string>
+															<string>inputDeviceModel</string>
+															<string>inputSourceID</string>
+															<string>ivarInputPortStates</string>
+															<string>keylessStructures</string>
+															<string>useDefaults</string>
+															<string>version</string>
+														</object>
+														<object class="NSMutableArray" key="dict.values">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<string>AppleHDAEngineInput:1</string>
+															<string>AppleHDA:30</string>
+															<integer value="1768778083"/>
+															<object class="NSMutableDictionary">
+																<bool key="EncodedWithXMLCoder">YES</bool>
+																<object class="NSMutableArray" key="dict.sortedKeys">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<string>inputDecreasingScale</string>
+																	<string>inputInscreasingScale</string>
+																</object>
+																<object class="NSMutableArray" key="dict.values">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<real value="1.000000e-01" key="NS.object.0"/>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<real value="1.000000e+00" key="NS.object.0"/>
+																	</object>
+																</object>
+															</object>
+															<integer value="1" id="9"/>
+															<integer value="0" id="8"/>
+															<reference ref="9"/>
+														</object>
+													</object>
+												</object>
+											</object>
+											<object class="NSMutableDictionary">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableArray" key="dict.sortedKeys">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>class</string>
+													<string>key</string>
+													<string>state</string>
+												</object>
+												<object class="NSMutableArray" key="dict.values">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>QCClear</string>
+													<string>Clear_1</string>
+													<object class="NSMutableDictionary">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<object class="NSMutableArray" key="dict.sortedKeys">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<string>clearColorBuffer</string>
+															<string>clearDepthBuffer</string>
+															<string>ivarInputPortStates</string>
+															<string>systemInputPortStates</string>
+														</object>
+														<object class="NSMutableArray" key="dict.values">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<boolean value="YES" id="5"/>
+															<reference ref="5"/>
+															<object class="NSMutableDictionary">
+																<string key="NS.key.0">inputColor</string>
+																<object class="NSMutableDictionary" key="NS.object.0">
+																	<string key="NS.key.0">value</string>
+																	<object class="NSMutableDictionary" key="NS.object.0">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="NSMutableArray" key="dict.sortedKeys">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>alpha</string>
+																			<string>blue</string>
+																			<string>green</string>
+																			<string>red</string>
+																		</object>
+																		<object class="NSMutableArray" key="dict.values">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<real value="0.000000e+00"/>
+																			<real value="0.000000e+00"/>
+																			<real value="0.000000e+00"/>
+																			<real value="0.000000e+00"/>
+																		</object>
+																	</object>
+																</object>
+															</object>
+															<object class="NSMutableDictionary">
+																<string key="NS.key.0">_enable</string>
+																<object class="NSMutableDictionary" key="NS.object.0">
+																	<string key="NS.key.0">value</string>
+																	<reference key="NS.object.0" ref="5"/>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+											<object class="NSMutableDictionary">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableArray" key="dict.sortedKeys">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>class</string>
+													<string>key</string>
+													<string>state</string>
+												</object>
+												<object class="NSMutableArray" key="dict.values">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>QCSprite</string>
+													<string>Sprite_1</string>
+													<object class="NSMutableDictionary">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<object class="NSMutableArray" key="dict.sortedKeys">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<string>antialiasing</string>
+															<string>ivarInputPortStates</string>
+															<string>systemInputPortStates</string>
+														</object>
+														<object class="NSMutableArray" key="dict.values">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<reference ref="8"/>
+															<object class="NSMutableDictionary">
+																<bool key="EncodedWithXMLCoder">YES</bool>
+																<object class="NSMutableArray" key="dict.sortedKeys">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<string>inputBlending</string>
+																	<string>inputCulling</string>
+																	<string>inputRX</string>
+																	<string>inputRY</string>
+																	<string>inputRZ</string>
+																	<string>inputX</string>
+																	<string>inputY</string>
+																	<string>inputZ</string>
+																	<string>inputZBuffer</string>
+																</object>
+																<object class="NSMutableArray" key="dict.values">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<reference key="NS.object.0" ref="8"/>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<reference key="NS.object.0" ref="8"/>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<real value="0.000000e+00" key="NS.object.0"/>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<real value="0.000000e+00" key="NS.object.0"/>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<real value="0.000000e+00" key="NS.object.0"/>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<real value="0.000000e+00" key="NS.object.0"/>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<real value="0.000000e+00" key="NS.object.0"/>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<real value="0.000000e+00" key="NS.object.0"/>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<string key="NS.key.0">value</string>
+																		<reference key="NS.object.0" ref="9"/>
+																	</object>
+																</object>
+															</object>
+															<object class="NSMutableDictionary">
+																<string key="NS.key.0">_enable</string>
+																<object class="NSMutableDictionary" key="NS.object.0">
+																	<string key="NS.key.0">value</string>
+																	<reference key="NS.object.0" ref="5"/>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+											<object class="NSMutableDictionary">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableArray" key="dict.sortedKeys">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>class</string>
+													<string>key</string>
+													<string>state</string>
+												</object>
+												<object class="NSMutableArray" key="dict.values">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>QCIterator</string>
+													<string>Iterator_1</string>
+													<object class="NSMutableDictionary">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<object class="NSMutableArray" key="dict.sortedKeys">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<string>connections</string>
+															<string>ivarInputPortStates</string>
+															<string>nodes</string>
+															<string>publishedInputPorts</string>
+															<string>systemInputPortStates</string>
+														</object>
+														<object class="NSMutableArray" key="dict.values">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="NSMutableDictionary">
+																<bool key="EncodedWithXMLCoder">YES</bool>
+																<object class="NSMutableArray" key="dict.sortedKeys">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<string>connection_1</string>
+																	<string>connection_2</string>
+																	<string>connection_3</string>
+																	<string>connection_4</string>
+																	<string>connection_5</string>
+																	<string>connection_6</string>
+																</object>
+																<object class="NSMutableArray" key="dict.values">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<object class="NSMutableDictionary">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="NSMutableArray" key="dict.sortedKeys">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>destinationNode</string>
+																			<string>destinationPort</string>
+																			<string>sourceNode</string>
+																			<string>sourcePort</string>
+																		</object>
+																		<object class="NSMutableArray" key="dict.values">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>StructureMember_index_1</string>
+																			<string>inputIndex</string>
+																			<string>IteratorVariables_1</string>
+																			<string>outputIndex</string>
+																		</object>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="NSMutableArray" key="dict.sortedKeys">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>destinationNode</string>
+																			<string>destinationPort</string>
+																			<string>sourceNode</string>
+																			<string>sourcePort</string>
+																		</object>
+																		<object class="NSMutableArray" key="dict.values">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>Sprite_1</string>
+																			<string>inputHeight</string>
+																			<string>StructureMember_index_1</string>
+																			<string>outputMember</string>
+																		</object>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="NSMutableArray" key="dict.sortedKeys">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>destinationNode</string>
+																			<string>destinationPort</string>
+																			<string>sourceNode</string>
+																			<string>sourcePort</string>
+																		</object>
+																		<object class="NSMutableArray" key="dict.values">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>Sprite_1</string>
+																			<string>inputX</string>
+																			<string>JavaScript_1</string>
+																			<string>outputNumber</string>
+																		</object>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="NSMutableArray" key="dict.sortedKeys">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>destinationNode</string>
+																			<string>destinationPort</string>
+																			<string>sourceNode</string>
+																			<string>sourcePort</string>
+																		</object>
+																		<object class="NSMutableArray" key="dict.values">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>JavaScript_1</string>
+																			<string>inputNumber_0</string>
+																			<string>IteratorVariables_1</string>
+																			<string>outputIndex</string>
+																		</object>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="NSMutableArray" key="dict.sortedKeys">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>destinationNode</string>
+																			<string>destinationPort</string>
+																			<string>sourceNode</string>
+																			<string>sourcePort</string>
+																		</object>
+																		<object class="NSMutableArray" key="dict.values">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>JavaScript_1</string>
+																			<string>inputNumber_1</string>
+																			<string>IteratorVariables_1</string>
+																			<string>outputCount</string>
+																		</object>
+																	</object>
+																	<object class="NSMutableDictionary">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="NSMutableArray" key="dict.sortedKeys">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>destinationNode</string>
+																			<string>destinationPort</string>
+																			<string>sourceNode</string>
+																			<string>sourcePort</string>
+																		</object>
+																		<object class="NSMutableArray" key="dict.values">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>JavaScript_1</string>
+																			<string>inputNumber_2</string>
+																			<string>ScreenInfo_1</string>
+																			<string>outputWidth</string>
+																		</object>
+																	</object>
+																</object>
+															</object>
+															<object class="NSMutableDictionary">
+																<string key="NS.key.0">inputCount</string>
+																<object class="NSMutableDictionary" key="NS.object.0">
+																	<string key="NS.key.0">value</string>
+																	<integer value="12" key="NS.object.0"/>
+																</object>
+															</object>
+															<object class="NSMutableArray">
+																<bool key="EncodedWithXMLCoder">YES</bool>
+																<object class="NSMutableDictionary">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<object class="NSMutableArray" key="dict.sortedKeys">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>class</string>
+																		<string>key</string>
+																	</object>
+																	<object class="NSMutableArray" key="dict.values">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>QCIteratorVariables</string>
+																		<string>IteratorVariables_1</string>
+																	</object>
+																</object>
+																<object class="NSMutableDictionary">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<object class="NSMutableArray" key="dict.sortedKeys">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>class</string>
+																		<string>identifier</string>
+																		<string>key</string>
+																	</object>
+																	<object class="NSMutableArray" key="dict.values">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>QCStructureMember</string>
+																		<string>index</string>
+																		<string>StructureMember_index_1</string>
+																	</object>
+																</object>
+																<object class="NSMutableDictionary">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<object class="NSMutableArray" key="dict.sortedKeys">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>class</string>
+																		<string>key</string>
+																		<string>state</string>
+																	</object>
+																	<object class="NSMutableArray" key="dict.values">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>QCSprite</string>
+																		<string>Sprite_1</string>
+																		<object class="NSMutableDictionary">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<object class="NSMutableArray" key="dict.sortedKeys">
+																				<bool key="EncodedWithXMLCoder">YES</bool>
+																				<string>antialiasing</string>
+																				<string>ivarInputPortStates</string>
+																				<string>systemInputPortStates</string>
+																			</object>
+																			<object class="NSMutableArray" key="dict.values">
+																				<bool key="EncodedWithXMLCoder">YES</bool>
+																				<reference ref="8"/>
+																				<object class="NSMutableDictionary">
+																					<bool key="EncodedWithXMLCoder">YES</bool>
+																					<object class="NSMutableArray" key="dict.sortedKeys">
+																						<bool key="EncodedWithXMLCoder">YES</bool>
+																						<string>inputBlending</string>
+																						<string>inputColor</string>
+																						<string>inputCulling</string>
+																						<string>inputRX</string>
+																						<string>inputRY</string>
+																						<string>inputRZ</string>
+																						<string>inputWidth</string>
+																						<string>inputY</string>
+																						<string>inputZ</string>
+																						<string>inputZBuffer</string>
+																					</object>
+																					<object class="NSMutableArray" key="dict.values">
+																						<bool key="EncodedWithXMLCoder">YES</bool>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<reference key="NS.object.0" ref="8"/>
+																						</object>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<object class="NSMutableDictionary" key="NS.object.0">
+																								<bool key="EncodedWithXMLCoder">YES</bool>
+																								<object class="NSMutableArray" key="dict.sortedKeys">
+																									<bool key="EncodedWithXMLCoder">YES</bool>
+																									<string>alpha</string>
+																									<string>blue</string>
+																									<string>green</string>
+																									<string>red</string>
+																								</object>
+																								<object class="NSMutableArray" key="dict.values">
+																									<bool key="EncodedWithXMLCoder">YES</bool>
+																									<real value="1.000000e+00"/>
+																									<real value="0.000000e+00"/>
+																									<real value="1.000000e+00"/>
+																									<real value="0.000000e+00"/>
+																								</object>
+																							</object>
+																						</object>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<reference key="NS.object.0" ref="8"/>
+																						</object>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<real value="0.000000e+00" key="NS.object.0"/>
+																						</object>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<real value="0.000000e+00" key="NS.object.0"/>
+																						</object>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<real value="0.000000e+00" key="NS.object.0"/>
+																						</object>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<real value="1.000000e-01" key="NS.object.0"/>
+																						</object>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<real value="0.000000e+00" key="NS.object.0"/>
+																						</object>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<real value="0.000000e+00" key="NS.object.0"/>
+																						</object>
+																						<object class="NSMutableDictionary">
+																							<string key="NS.key.0">value</string>
+																							<reference key="NS.object.0" ref="9"/>
+																						</object>
+																					</object>
+																				</object>
+																				<object class="NSMutableDictionary">
+																					<string key="NS.key.0">_enable</string>
+																					<object class="NSMutableDictionary" key="NS.object.0">
+																						<string key="NS.key.0">value</string>
+																						<reference key="NS.object.0" ref="5"/>
+																					</object>
+																				</object>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<object class="NSMutableDictionary">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<object class="NSMutableArray" key="dict.sortedKeys">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>class</string>
+																		<string>key</string>
+																		<string>state</string>
+																	</object>
+																	<object class="NSMutableArray" key="dict.values">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>QCJavaScript</string>
+																		<string>JavaScript_1</string>
+																		<object class="NSMutableDictionary">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<object class="NSMutableArray" key="dict.sortedKeys">
+																				<bool key="EncodedWithXMLCoder">YES</bool>
+																				<string>newMode</string>
+																				<string>numberOfInputs</string>
+																				<string>numberOfOutputs</string>
+																				<string>script</string>
+																				<string>version</string>
+																			</object>
+																			<object class="NSMutableArray" key="dict.values">
+																				<bool key="EncodedWithXMLCoder">YES</bool>
+																				<reference ref="9"/>
+																				<reference ref="8"/>
+																				<reference ref="8"/>
+																				<string type="base64-UTF8">LyoKQSBzaW1wbGUgc2NyaXB0IHRoYXQgdGFrZXMgdHdvIGlucHV0IHZhbHVlcywgc3VtcyB0aGVtIGFu
+ZCByZXR1cm5zIHRoZSByZXN1bHQuCgpTcGVjaWFsIGtleXdvcmRzIGZvciBkZWZpbmluZyBpbnB1dCBh
+bmQgb3V0cHV0IGtleSB0eXBlczoKX19ib29sZWFuLCBfX2luZGV4LCBfX251bWJlciwgX19zdHJpbmcs
+IF9faW1hZ2UsIF9fc3RydWN0dXJlLCBfX3ZpcnR1YWwKCk5vdGUgdGhhdCB0aGUgZnVuY3Rpb24gaW5w
+dXQgYXJndW1lbnRzIGFyZSByZWFkLW9ubHkuCiovCgpmdW5jdGlvbiAoX19udW1iZXIgb3V0cHV0TnVt
+YmVyKSBtYWluIChfX251bWJlciBpbnB1dE51bWJlclszXSkKewoJdmFyIHJlc3VsdCA9IG5ldyBPYmpl
+Y3QoKTsKCXJlc3VsdC5vdXRwdXROdW1iZXIgPSAoaW5wdXROdW1iZXJbMl0gLyAyICogLTEpICsgLjA1
+ICsgaW5wdXROdW1iZXJbMF0gKiAoaW5wdXROdW1iZXJbMl0gLyBpbnB1dE51bWJlclsxXSk7CglyZXR1
+cm4gcmVzdWx0Owp9Cg</string>
+																				<reference ref="9"/>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<object class="NSMutableDictionary">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<object class="NSMutableArray" key="dict.sortedKeys">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>class</string>
+																		<string>key</string>
+																		<string>state</string>
+																	</object>
+																	<object class="NSMutableArray" key="dict.values">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>QCScreenInfo</string>
+																		<string>ScreenInfo_1</string>
+																		<object class="NSMutableDictionary">
+																			<string key="NS.key.0">cleanAperture</string>
+																			<reference key="NS.object.0" ref="5"/>
+																		</object>
+																	</object>
+																</object>
+															</object>
+															<object class="NSMutableArray">
+																<bool key="EncodedWithXMLCoder">YES</bool>
+																<object class="NSMutableDictionary">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<object class="NSMutableArray" key="dict.sortedKeys">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>key</string>
+																		<string>node</string>
+																		<string>port</string>
+																	</object>
+																	<object class="NSMutableArray" key="dict.values">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<string>Structure</string>
+																		<string>StructureMember_index_1</string>
+																		<string>inputStructure</string>
+																	</object>
+																</object>
+															</object>
+															<object class="NSMutableDictionary">
+																<string key="NS.key.0">_enable</string>
+																<object class="NSMutableDictionary" key="NS.object.0">
+																	<string key="NS.key.0">value</string>
+																	<reference key="NS.object.0" ref="5"/>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+											<object class="NSMutableDictionary">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableArray" key="dict.sortedKeys">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>class</string>
+													<string>key</string>
+													<string>state</string>
+												</object>
+												<object class="NSMutableArray" key="dict.values">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>QCScreenInfo</string>
+													<string>ScreenInfo_1</string>
+													<object class="NSMutableDictionary">
+														<string key="NS.key.0">cleanAperture</string>
+														<reference key="NS.object.0" ref="5"/>
+													</object>
+												</object>
+											</object>
+											<object class="NSMutableDictionary">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableArray" key="dict.sortedKeys">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>class</string>
+													<string>identifier</string>
+													<string>key</string>
+													<string>state</string>
+												</object>
+												<object class="NSMutableArray" key="dict.values">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>QCColorFromComponents</string>
+													<string>rgb</string>
+													<string>ColorFromComponents_rgb_1</string>
+													<object class="NSMutableDictionary">
+														<string key="NS.key.0">ivarInputPortStates</string>
+														<object class="NSMutableDictionary" key="NS.object.0">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="NSMutableArray" key="dict.sortedKeys">
+																<bool key="EncodedWithXMLCoder">YES</bool>
+																<string>input1</string>
+																<string>input2</string>
+																<string>input3</string>
+															</object>
+															<object class="NSMutableArray" key="dict.values">
+																<bool key="EncodedWithXMLCoder">YES</bool>
+																<object class="NSMutableDictionary">
+																	<string key="NS.key.0">value</string>
+																	<real value="1.000000e+00" key="NS.object.0"/>
+																</object>
+																<object class="NSMutableDictionary">
+																	<string key="NS.key.0">value</string>
+																	<real value="1.000000e+00" key="NS.object.0"/>
+																</object>
+																<object class="NSMutableDictionary">
+																	<string key="NS.key.0">value</string>
+																	<real value="1.000000e+00" key="NS.object.0"/>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="NSMutableArray">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<object class="NSMutableDictionary">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableArray" key="dict.sortedKeys">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>key</string>
+													<string>node</string>
+													<string>port</string>
+													<string>state</string>
+												</object>
+												<object class="NSMutableArray" key="dict.values">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>Spectrum</string>
+													<string>AudioInput_1</string>
+													<string>outputSpectrum</string>
+													<object class="NSMutableDictionary">
+														<string key="NS.key.0">userInfo</string>
+														<object class="NSMutableData" key="NS.object.0">
+															<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gIU3BlY3RydW2GkoSXmAtk
+ZXNjcmlwdGlvboaShJeYE1RoZSBhdWRpbyBzcGVjdHJ1bS6Ghg</bytes>
+														</object>
+													</object>
+												</object>
+											</object>
+											<object class="NSMutableDictionary">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableArray" key="dict.sortedKeys">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>key</string>
+													<string>node</string>
+													<string>port</string>
+													<string>state</string>
+												</object>
+												<object class="NSMutableArray" key="dict.values">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<string>Volume_Peak</string>
+													<string>AudioInput_1</string>
+													<string>outputPeak</string>
+													<object class="NSMutableDictionary">
+														<string key="NS.key.0">userInfo</string>
+														<object class="NSMutableData" key="NS.object.0">
+															<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gLVm9sdW1lIFBlYWuGkoSX
+mAtkZXNjcmlwdGlvboaShJeYFlRoZSBhdWRpbyB2b2x1bWUgcGVhay6Ghg</bytes>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="NSMutableData">
+											<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwlzY3JvbGxpbmeGkoSEhAdOU1ZhbHVlAJWE
+ASqEhA17X05TUG9pbnQ9ZmZ9m4MAwJ9Dga8AhpKEl5gKem9vbUZhY3RvcoaShISECE5TTnVtYmVyAJma
+hIQBZp0BhoY</bytes>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="NSUserDefaultsController" id="426901975">
+				<bool key="NSSharedInstance">YES</bool>
+			</object>
+		</object>
+		<object class="IBObjectContainer" key="IBDocument.Objects">
+			<object class="NSMutableArray" key="connectionRecords">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">AudioConnect:</string>
+						<reference key="source" ref="394347438"/>
+						<reference key="destination" ref="959812221"/>
+					</object>
+					<int key="connectionID">471</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">view</string>
+						<reference key="source" ref="394347438"/>
+						<reference key="destination" ref="919965001"/>
+					</object>
+					<int key="connectionID">472</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">patch: patch</string>
+						<reference key="source" ref="515825188"/>
+						<reference key="destination" ref="1047786911"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="515825188"/>
+							<reference key="NSDestination" ref="1047786911"/>
+							<string key="NSLabel">patch: patch</string>
+							<string key="NSBinding">patch</string>
+							<string key="NSKeyPath">patch</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">478</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">qcView</string>
+						<reference key="source" ref="394347438"/>
+						<reference key="destination" ref="515825188"/>
+					</object>
+					<int key="connectionID">479</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">qcpc</string>
+						<reference key="source" ref="394347438"/>
+						<reference key="destination" ref="1047786911"/>
+					</object>
+					<int key="connectionID">480</int>
+				</object>
+			</object>
+			<object class="IBMutableOrderedSet" key="objectRecords">
+				<object class="NSArray" key="orderedObjects">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<object class="IBObjectRecord">
+						<int key="objectID">0</int>
+						<object class="NSArray" key="object" id="1049">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+						</object>
+						<reference key="children" ref="1048"/>
+						<nil key="parent"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-2</int>
+						<reference key="object" ref="1021"/>
+						<reference key="parent" ref="1049"/>
+						<string type="base64-UTF8" key="objectName">RmlsZSdzIE93bmVyA</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-1</int>
+						<reference key="object" ref="1014"/>
+						<reference key="parent" ref="1049"/>
+						<string key="objectName">First Responder</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-3</int>
+						<reference key="object" ref="1050"/>
+						<reference key="parent" ref="1049"/>
+						<string key="objectName">Application</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">449</int>
+						<reference key="object" ref="919965001"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="959812221"/>
+							<reference ref="515825188"/>
+						</object>
+						<reference key="parent" ref="1049"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">454</int>
+						<reference key="object" ref="394347438"/>
+						<reference key="parent" ref="1049"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">463</int>
+						<reference key="object" ref="959812221"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="682660128"/>
+						</object>
+						<reference key="parent" ref="919965001"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">464</int>
+						<reference key="object" ref="682660128"/>
+						<reference key="parent" ref="959812221"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">473</int>
+						<reference key="object" ref="1047786911"/>
+						<reference key="parent" ref="1049"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">474</int>
+						<reference key="object" ref="515825188"/>
+						<reference key="parent" ref="919965001"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">475</int>
+						<reference key="object" ref="426901975"/>
+						<reference key="parent" ref="1049"/>
+					</object>
+				</object>
+			</object>
+			<object class="NSMutableDictionary" key="flattenedProperties">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="NSMutableArray" key="dict.sortedKeys">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<string>-1.IBPluginDependency</string>
+					<string>-2.IBPluginDependency</string>
+					<string>-3.IBPluginDependency</string>
+					<string>449.IBEditorWindowLastContentRect</string>
+					<string>449.IBPluginDependency</string>
+					<string>454.IBPluginDependency</string>
+					<string>463.IBPluginDependency</string>
+					<string>464.IBPluginDependency</string>
+					<string>473.IBPluginDependency</string>
+					<string>474.IBPluginDependency</string>
+				</object>
+				<object class="NSMutableArray" key="dict.values">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilderKit</string>
+					<string>com.apple.InterfaceBuilderKit</string>
+					<string>{{988, 625}, {157, 142}}</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.QuartzComposerIBPlugin</string>
+					<string>com.apple.QuartzComposerIBPlugin</string>
+				</object>
+			</object>
+			<object class="NSMutableDictionary" key="unlocalizedProperties">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="NSArray" key="dict.sortedKeys">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+				</object>
+				<object class="NSMutableArray" key="dict.values">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+				</object>
+			</object>
+			<nil key="activeLocalization"/>
+			<object class="NSMutableDictionary" key="localizations">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="NSArray" key="dict.sortedKeys">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+				</object>
+				<object class="NSMutableArray" key="dict.values">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+				</object>
+			</object>
+			<nil key="sourceID"/>
+			<int key="maxID">480</int>
+		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBPartialClassDescription">
+					<string key="className">AudioManager</string>
+					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">AudioConnect:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSMutableArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>qcView</string>
+							<string>qcpc</string>
+							<string>view</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>QCView</string>
+							<string>id</string>
+							<string>NSView</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">AudioManager.h</string>
+					</object>
+				</object>
+			</object>
+		</object>
+		<int key="IBDocument.localizationMode">0</int>
+		<string key="IBDocument.LastKnownRelativeProjectPath">Audio.xcodeproj</string>
+		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+	</data>
+</archive>

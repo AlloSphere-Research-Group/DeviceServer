@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'libowltest' target in the 'libowltest' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,79 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 8D5B49AC048680CD000E48DA /* Keyboard */;
+		codeSenseManager = 09A077111404447000F7E0C3 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					823,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 377039142;
+			PBXWorkspaceStateSaveDate = 377039142;
+		};
+		perUserProjectItems = {
+			09A0068C16794188003401E0 /* PBXBookmark */ = 09A0068C16794188003401E0 /* PBXBookmark */;
+			09A0068D16794188003401E0 /* PBXTextBookmark */ = 09A0068D16794188003401E0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 09A077101404447000F7E0C3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	09A0068C16794188003401E0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CB1C73111097B29A00730F1D /* KeyboardManager.m */;
+	};
+	09A0068D16794188003401E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB1C73111097B29A00730F1D /* KeyboardManager.m */;
+		name = "KeyboardManager.m: 20";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 1323;
+		vrLoc = 3010;
+	};
+	09A077101404447000F7E0C3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	09A077111404447000F7E0C3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D5B49AC048680CD000E48DA /* Keyboard */ = {
+		activeExec = 0;
+	};
+	CB1C73111097B29A00730F1D /* KeyboardManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 2210}}";
+			sepNavSelRange = "{611, 0}";
+			sepNavVisRange = "{3010, 1323}";
+		};
+	};
+}

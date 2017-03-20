@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Template for building DeviceServer device plugins</string>
+	<key>FilesToRename</key>
+	<dict>
+		<key>TemplateManager.h</key>
+		<string>«PROJECTNAME»Manager.h</string>
+		<key>TemplateManager.m</key>
+		<string>«PROJECTNAME»Manager.m</string>
+		<key>Template_Prefix.pch</key>
+		<string>«PROJECTNAME»_Prefix.pch</string>
+		<key>Template.lua</key>
+		<string>«PROJECTNAME».lua</string>
+	</dict>
+	<key>FilesToMacroExpand</key>
+	<array>
+		<string>«PROJECTNAME»Manager.h</string>
+		<string>«PROJECTNAME»Manager.m</string>
+		<string>«PROJECTNAME».lua</string>
+		<string>Info.plist</string>
+		<string>Interface.xib</string>
+	</array>
+</dict>
+</plist>

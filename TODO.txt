@@ -1,0 +1,21 @@
+3. Read data from efields.
+
+4. Add filtering capabilities... control objects should store last 50 values or so and be able to access them via the following notation x[0] (now), x[-1], x[-2] etc.
+
+8. 	dictionary = [[NSMutableDictionary alloc] initWithDictionary:props];
+	[dictionary setObject:INT(cID) forKey:@"cID"];
+		
+	Add a dictionary to each control (mapping) that can be passed to Lua when evaluating expressions. Dictionary needs to be updated whenever
+	control parameters are changed
+
+9. Separate OSCCommunicationManager from OSCDeviceManager
+
+10. Abstract communication layer so that VRPN may be used
+
+11. try / catch block for errors thrown when dynamic device connection message is sent and device is not connected
+
+12. Remove liblo / OSCManager.h from ALL plugins (that don't use it)
+
+13. GET RID OF MASTER DEVICE LIST
+
+15. Add Mouse / Keyboard devices

@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		CB1C708E1096A7AF00730F1D /* Quintilian.bundle in Copy Plugin to Plugin Directory */ = {isa = PBXBuildFile; fileRef = 8D5B49B6048680CD000E48DA /* Quintilian.bundle */; };
+		CB1C70C41096BAB600730F1D /* Interface.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1C70C31096BAB600730F1D /* Interface.xib */; };
+		CB1C73121097B29A00730F1D /* QuintilianManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB1C73111097B29A00730F1D /* QuintilianManager.mm */; };
+		CBBC7AEC10A9EDA200CFC118 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBBC7AEB10A9EDA200CFC118 /* README.txt */; };
+		CBBC7B1D10A9F82E00CFC118 /* Quintilian.lua in Copy Device Descriptions */ = {isa = PBXBuildFile; fileRef = CBBC7AF110A9F4C400CFC118 /* Quintilian.lua */; };
+		F614E18F1484A1BC00F44F75 /* libowlsock.cc in Sources */ = {isa = PBXBuildFile; fileRef = F614E1821484A1BC00F44F75 /* libowlsock.cc */; };
+		F614E1901484A1BC00F44F75 /* owl_math.cc in Sources */ = {isa = PBXBuildFile; fileRef = F614E1871484A1BC00F44F75 /* owl_math.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB1C707E1096A76400730F1D /* Copy Plugin to Plugin Directory */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "$(SRCROOT)/../../plugins";
+			dstSubfolderSpec = 0;
+			files = (
+				CB1C708E1096A7AF00730F1D /* Quintilian.bundle in Copy Plugin to Plugin Directory */,
+			);
+			name = "Copy Plugin to Plugin Directory";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBC7B1610A9F7EB00CFC118 /* Copy Device Descriptions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SRCROOT)/../../deviceDescriptions/";
+			dstSubfolderSpec = 0;
+			files = (
+				CBBC7B1D10A9F82E00CFC118 /* Quintilian.lua in Copy Device Descriptions */,
+			);
+			name = "Copy Device Descriptions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* Quintilian_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quintilian_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* Quintilian.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quintilian.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1C70C31096BAB600730F1D /* Interface.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Interface.xib; sourceTree = "<group>"; };
+		CB1C73101097B29A00730F1D /* QuintilianManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuintilianManager.h; sourceTree = "<group>"; };
+		CB1C73111097B29A00730F1D /* QuintilianManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QuintilianManager.mm; sourceTree = "<group>"; };
+		CB2448D210A3947500258956 /* DeviceServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceServer.framework; path = ../DeviceServer.framework; sourceTree = SOURCE_ROOT; };
+		CBBC7AEB10A9EDA200CFC118 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; wrapsLines = 1; };
+		CBBC7AF110A9F4C400CFC118 /* Quintilian.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Quintilian.lua; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		F614E1801484A1BC00F44F75 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		F614E1811484A1BC00F44F75 /* c3d_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c3d_file.h; sourceTree = "<group>"; };
+		F614E1821484A1BC00F44F75 /* libowlsock.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libowlsock.cc; sourceTree = "<group>"; };
+		F614E1831484A1BC00F44F75 /* libowlsock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libowlsock.h; sourceTree = "<group>"; };
+		F614E1841484A1BC00F44F75 /* net_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net_utils.h; sourceTree = "<group>"; };
+		F614E1851484A1BC00F44F75 /* owl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = owl.h; sourceTree = "<group>"; };
+		F614E1861484A1BC00F44F75 /* owl_images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = owl_images.h; sourceTree = "<group>"; };
+		F614E1871484A1BC00F44F75 /* owl_math.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = owl_math.cc; sourceTree = "<group>"; };
+		F614E1881484A1BC00F44F75 /* owl_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = owl_math.h; sourceTree = "<group>"; };
+		F614E1891484A1BC00F44F75 /* owl_planes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = owl_planes.h; sourceTree = "<group>"; };
+		F614E18A1484A1BC00F44F75 /* owl_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = owl_protocol.h; sourceTree = "<group>"; };
+		F614E18B1484A1BC00F44F75 /* owl_rpd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = owl_rpd.h; sourceTree = "<group>"; };
+		F614E18C1484A1BC00F44F75 /* owl_scan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = owl_scan.h; sourceTree = "<group>"; };
+		F614E18D1484A1BC00F44F75 /* owl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = owl_utils.h; sourceTree = "<group>"; };
+		F614E18E1484A1BC00F44F75 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		F614E1B81484A3A500F44F75 /* fingerTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fingerTip.h; sourceTree = "<group>"; };
+		F614E1B91484A3A500F44F75 /* hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hand.h; sourceTree = "<group>"; };
+		F614E1BA1484A3A500F44F75 /* sVector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sVector3D.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* QuintilianBundle */ = {
+			isa = PBXGroup;
+			children = (
+				F614E17F1484A1BC00F44F75 /* owl */,
+				CBBC7AEB10A9EDA200CFC118 /* README.txt */,
+				CB2448D210A3947500258956 /* DeviceServer.framework */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = QuintilianBundle;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				CB1C70C31096BAB600730F1D /* Interface.xib */,
+				CBBC7AF110A9F4C400CFC118 /* Quintilian.lua */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F614E1B81484A3A500F44F75 /* fingerTip.h */,
+				F614E1B91484A3A500F44F75 /* hand.h */,
+				F614E1BA1484A3A500F44F75 /* sVector3D.h */,
+				CB1C73101097B29A00730F1D /* QuintilianManager.h */,
+				CB1C73111097B29A00730F1D /* QuintilianManager.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* Quintilian.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* Quintilian_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F614E17F1484A1BC00F44F75 /* owl */ = {
+			isa = PBXGroup;
+			children = (
+				F614E1801484A1BC00F44F75 /* buffer.h */,
+				F614E1811484A1BC00F44F75 /* c3d_file.h */,
+				F614E1821484A1BC00F44F75 /* libowlsock.cc */,
+				F614E1831484A1BC00F44F75 /* libowlsock.h */,
+				F614E1841484A1BC00F44F75 /* net_utils.h */,
+				F614E1851484A1BC00F44F75 /* owl.h */,
+				F614E1861484A1BC00F44F75 /* owl_images.h */,
+				F614E1871484A1BC00F44F75 /* owl_math.cc */,
+				F614E1881484A1BC00F44F75 /* owl_math.h */,
+				F614E1891484A1BC00F44F75 /* owl_planes.h */,
+				F614E18A1484A1BC00F44F75 /* owl_protocol.h */,
+				F614E18B1484A1BC00F44F75 /* owl_rpd.h */,
+				F614E18C1484A1BC00F44F75 /* owl_scan.h */,
+				F614E18D1484A1BC00F44F75 /* owl_utils.h */,
+				F614E18E1484A1BC00F44F75 /* timer.h */,
+			);
+			path = owl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* Quintilian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Quintilian" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				CB1C707E1096A76400730F1D /* Copy Plugin to Plugin Directory */,
+				CBBC7B1610A9F7EB00CFC118 /* Copy Device Descriptions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quintilian;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = QuintilianBundle;
+			productReference = 8D5B49B6048680CD000E48DA /* Quintilian.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Quintilian" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* QuintilianBundle */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* Quintilian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				CB1C70C41096BAB600730F1D /* Interface.xib in Resources */,
+				CBBC7AEC10A9EDA200CFC118 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1C73121097B29A00730F1D /* QuintilianManager.mm in Sources */,
+				F614E18F1484A1BC00F44F75 /* libowlsock.cc in Sources */,
+				F614E1901484A1BC00F44F75 /* owl_math.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../../externals/**",
+					"$(SRCROOT)/../",
+					"$(inherited)",
+					"$(SRCROOT)",
+					"\"$(SRCROOT)/../../DeviceServer/build/Debug\"",
+					"\"$(SRCROOT)/../../../../Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Quintilian_Prefix.pch;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../externals/**";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = Quintilian;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../",
+					"$(inherited)",
+					"\"$(SRCROOT)/../../DeviceServer/build/Debug\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../Library/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Quintilian_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = QuintilianBundle;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Quintilian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Quintilian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

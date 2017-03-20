@@ -1,0 +1,6 @@
+There are two targets in the XCode project:
+
+1. DeviceServer3		- This is the main application.
+2. DeviceServer			- This is the framework used by device plugins
+
+Plugins for the DeviceServer need to be built individually. Open up the Xcode projects found in the DeviceServerBundle folder and build them. The plugins will be automatically copied to the appropriate directory ("plugins"). Once the plugins you want to use have been built, run the DeviceServer Xcode project. 

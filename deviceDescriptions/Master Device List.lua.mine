@@ -1,0 +1,46 @@
+devices = {
+	-- 0 - 10 reserved for Wiimotes
+	{ id = 1, name = "Wiimote" },
+	{ id = 2, name = "Wiimote (2)" },
+	{ id = 3, name = "Wiimote (3)" },
+	{ id = 4, name = "Wiimote (4)" },
+	
+	-- 11 - 30 reserved for PPTTrackers
+	{ id = 11, name = "PPTTracker 1" },
+	{ id = 12, name = "PPTTracker 2" },
+	{ id = 13, name = "PPTTracker 3" },	
+	{ id = 14, name = "PPTTracker 4" },
+	       
+	{ id = 31, name = "Logitech Dual Action" },
+	{ id = 32, name = "Logitech Cordless RumblePad 2" },
+	{ id = 33, name = "Logitech RumblePad 2 USB" },    
+	{ id = 50, name = "USB 2-Axis 8-Button Gamepad" },
+	       
+	{ id = 61, name = "iPhone" },
+	{ id = 62, name = "iPhone(2)" },
+	{ id = 63, name = "iPhone(3)" },
+	       
+	{ id = 70, name = "Griffin PowerMate" },
+	{ id = 71, name = "OSCSlayer" },
+	{ id = 72, name = "Accelerometer" },
+
+	{ id = 100, name = "ZeRO MkII Port 1" },
+	{ id = 101, name = "padKONTROL Port 1" },
+	{ id = 102, name = "padKONTROL Port 2" },
+	{ id = 103, name = "padKONTROL Port 3" },		
+	{ id = 104, name = "IAC Driver Bus 1" },
+	{ id = 104, name = "IAC Driver IAC Bus 2" },
+	{ id = 105, name = "UltraLite MIDI Port" },		
+	{ id = 106, name = "nanoKONTROL" },
+	{ id = 107, name = "nanoKEY" },
+	{ id = 108, name = "Audio" },
+	{ id = 109, name = "SpaceNavigator" },		
+	{ id = 110, name = "SpaceNavigator (2)" },
+	{ id = 111, name = "SpaceNavigator (3)" },			
+	{ id = 112, name = "Lemur"},
+	{ id = 113, name = "iPad"},
+	{ id = 114, name = "TRASH"},	
+	{ id = 115, name = "Trackpad"},
+	{ id = 116, name = "Game-Trak V1.3"},
+	{ id = 117, name = "PhaseSpace"},		
+}
